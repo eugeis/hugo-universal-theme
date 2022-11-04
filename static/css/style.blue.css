@@ -25,15 +25,6 @@
   clear: both;
 }
 
-.background-carousel {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+6,1e5799+6,004799+62,7db9e8+64&1+0,1+60,0+100 */
-background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(30,87,153,1) 6%, rgba(1,72,153,1) 60%, rgba(0,71,153,0.95) 62%, rgba(125,185,232,0.9) 64%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(30,87,153,1) 6%,rgba(1,72,153,1) 60%,rgba(0,71,153,0.95) 62%,rgba(125,185,232,0.9) 64%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  rgba(30,87,153,1) 0%,rgba(30,87,153,1) 6%,rgba(1,72,153,1) 60%,rgba(0,71,153,0.95) 62%,rgba(125,185,232,0.9) 64%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-}
-
 .center-block {
   display: block;
   margin-left: auto;
