@@ -2,9 +2,9 @@ baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if 
 title = "Universal"
 theme = "hugo-universal-theme"
 themesDir = "../.."
-languageCode = "de-de"
+languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "de"
+defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
@@ -30,13 +30,43 @@ pluralizelisttitles = false
     weight     = 1
 
 [[menu.main]]
-    name       = "Gemeinde"
-    identifier = "menu.features"
-    url        = "/img/inside_4a.jpg"
-    weight     = 2
+    name       = "Option 1: Default Page"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.home"
 
 [[menu.main]]
-    name       = "Gemeindeleben"
+    name       = "Option 2: Application"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.home"
+
+[[menu.main]]
+    name       = "Option 3: Startup"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.home"
+
+[[menu.main]]
+    name       = "Option 4: Agency"
+    url        = "/"
+    weight     = 4
+    parent     = "menu.home"
+
+[[menu.main]]
+    name       = "Option 5: Portfolio"
+    url        = "/"
+    weight     = 5
+    parent     = "menu.home"
+
+[[menu.main]]
+    name       = "Features"
+    identifier = "menu.features"
+    url        = "/img/template-easy-customize.png"
+    weight     = 3
+
+[[menu.main]]
+    name       = "Shortcodes"
     identifier = "section.shortcodes"
     url        = ""
     weight     = 1
@@ -44,30 +74,284 @@ pluralizelisttitles = false
     post       = 1
 
 [[menu.main]]
-    name       = "Über uns"
-    url        = "/ueberuns/ueberuns"
-    weight     = 1
-    parent     = "section.shortcodes"
-    post       = 1
+    name       = "Header variations"
+    identifier = "section.headervariations"
+    url        = ""
+    weight     = 2
+    parent     = "menu.features"
+    post       = 2
 
 [[menu.main]]
-    name       = "Fragen"
+    name       = "Accordions"
+    url        = ""
+    weight     = 1
+    parent     = "section.shortcodes"
+
+[[menu.main]]
+    name       = "Alerts"
     url        = ""
     weight     = 2
     parent     = "section.shortcodes"
-    post       = 1
 
 [[menu.main]]
-    identifier = "livestream"
-    name       = "Livestream"
-    url        = "https://www.youtube.com/channel/UCVRBQkJxQS_fNKR90c4kscg/live"
+    name       = "Buttons"
+    url        = ""
+    weight     = 3
+    parent     = "section.shortcodes"
+
+[[menu.main]]
+    name       = "Content Boxes"
+    url        = ""
+    weight     = 4
+    parent     = "section.shortcodes"
+
+[[menu.main]]
+    name       = "Horizontal Blocks"
+    url        = ""
+    weight     = 5
+    parent     = "section.shortcodes"
+
+[[menu.main]]
+    name       = "Pagination"
+    url        = ""
+    weight     = 6
+    parent     = "section.shortcodes"
+
+[[menu.main]]
+    name       = "Tabs"
+    url        = ""
+    weight     = 7
+    parent     = "section.shortcodes"
+
+[[menu.main]]
+    name       = "Typography"
+    url        = ""
+    weight     = 8
+    parent     = "section.shortcodes"
+
+[[menu.main]]
+    name       = "Default Sticky Header"
+    url        = ""
+    weight     = 1
+    parent     = "section.headervariations"
+
+[[menu.main]]
+    name       = "No Sticky Header"
+    url        = ""
+    weight     = 2
+    parent     = "section.headervariations"
+
+[[menu.main]]
+    name       = "Light Header"
+    url        = ""
+    weight     = 3
+    parent     = "section.headervariations"
+
+[[menu.main]]
+    name       = "Portfolio"
+    identifier = "menu.portfolio"
+    url        = "/img/template-homepage.png"
     weight     = 3
 
 [[menu.main]]
-    identifier = "contact"
-    name       = "Kontakt"
-    url        = "/contact/"
+    name       = "Portfolio"
+    identifier = "section.portfolio"
+    url        = ""
+    weight     = 1
+    parent     = "menu.portfolio"
+    post       = 1
+
+[[menu.main]]
+    name       = "2 Columns"
+    url        = ""
+    weight     = 1
+    parent     = "section.portfolio"
+
+[[menu.main]]
+    name       = "2 Columns With Negative Space"
+    url        = ""
+    weight     = 2
+    parent     = "section.portfolio"
+
+[[menu.main]]
+    name       = "3 Columns"
+    url        = ""
+    weight     = 3
+    parent     = "section.portfolio"
+
+[[menu.main]]
+    name       = "3 Columns With Negative Space"
+    url        = ""
     weight     = 4
+    parent     = "section.portfolio"
+
+[[menu.main]]
+    name       = "4 Columns"
+    url        = ""
+    weight     = 5
+    parent     = "section.portfolio"
+
+[[menu.main]]
+    name       = "4 Columns With Negative Space"
+    url        = ""
+    weight     = 6
+    parent     = "section.portfolio"
+
+[[menu.main]]
+    name       = "Portfolio - detail"
+    url        = ""
+    weight     = 7
+    parent     = "section.portfolio"
+
+[[menu.main]]
+    name       = "Portfolio - detail 2"
+    url        = ""
+    weight     = 8
+    parent     = "section.portfolio"
+
+[[menu.main]]
+    name       = "About"
+    identifier = "section.about"
+    url        = ""
+    weight     = 2
+    parent     = "menu.portfolio"
+    post       = 2
+
+[[menu.main]]
+    name       = "About Us"
+    url        = ""
+    weight     = 1
+    parent     = "section.about"
+
+[[menu.main]]
+    name       = "Our Team"
+    url        = ""
+    weight     = 2
+    parent     = "section.about"
+
+[[menu.main]]
+    name       = "Marketing"
+    identifier = "section.marketing"
+    url        = ""
+    weight     = 3
+    parent     = "menu.portfolio"
+    post       = 2
+
+[[menu.main]]
+    name       = "Packages"
+    url        = ""
+    weight     = 1
+    parent     = "section.marketing"
+
+[[menu.main]]
+    name       = "All Pages"
+    identifier = "menu.allpages"
+    url        = ""
+    weight     = 4
+
+[[menu.main]]
+    name       = "Home"
+    identifier = "section.ap-home"
+    url        = ""
+    weight     = 1
+    parent     = "menu.allpages"
+    post       = 1
+
+[[menu.main]]
+    name       = "About"
+    identifier = "section.ap-about"
+    url        = ""
+    weight     = 2
+    parent     = "menu.allpages"
+    post       = 1
+
+[[menu.main]]
+    name       = "Marketing"
+    identifier = "section.ap-marketing"
+    url        = ""
+    weight     = 3
+    parent     = "menu.allpages"
+    post       = 1
+
+[[menu.main]]
+    name       = "Portfolio"
+    identifier = "section.ap-portfolio"
+    url        = ""
+    weight     = 1
+    parent     = "menu.allpages"
+    post       = 2
+
+[[menu.main]]
+    name       = "User Pages"
+    identifier = "section.ap-userpages"
+    url        = ""
+    weight     = 2
+    parent     = "menu.allpages"
+    post       = 2
+
+[[menu.main]]
+    name       = "Shop"
+    identifier = "section.ap-shop"
+    url        = ""
+    weight     = 1
+    parent     = "menu.allpages"
+    post       = 3
+
+[[menu.main]]
+    name       = "Shop - Order Process"
+    identifier = "section.ap-shoporderprocess"
+    url        = ""
+    weight     = 2
+    parent     = "menu.allpages"
+    post       = 3
+
+[[menu.main]]
+    name       = "Contact"
+    identifier = "section.ap-contact"
+    url        = ""
+    weight     = 1
+    parent     = "menu.allpages"
+    post       = 4
+
+[[menu.main]]
+    name       = "Pages"
+    identifier = "section.ap-pages"
+    url        = ""
+    weight     = 2
+    parent     = "menu.allpages"
+    post       = 4
+
+[[menu.main]]
+    name       = "Blog"
+    identifier = "section.ap-blog"
+    url        = "/blog/"
+    weight     = 3
+    parent     = "menu.allpages"
+    post       = 4
+
+[[menu.main]]
+    name       = "Blog Listing Big"
+    url        = "/blog/"
+    weight     = 1
+    parent     = "section.ap-blog"
+
+[[menu.main]]
+    name       = "Blog"
+    identifier = "menu.blog"
+    url        = "/blog/"
+    weight     = 5
+
+[[menu.main]]
+    name       = "FAQ"
+    identifier = "menu.faq"
+    url        = "/faq/"
+    weight     = 6
+
+[[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact/"
+    weight     = 7
 
 
 # Top bar social links menu
@@ -168,7 +452,7 @@ pluralizelisttitles = false
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "FECG-Braunschweig"
+    logo_text = "Universal"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
