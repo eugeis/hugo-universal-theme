@@ -45,14 +45,14 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "Über uns"
-    url        = "/ueberuns/ueberuns"
+    url        = "/ueberuns/"
     weight     = 1
     parent     = "section.shortcodes"
     post       = 1
 
 [[menu.main]]
     name       = "Fragen"
-    url        = ""
+    url        = "/fragen/"
     weight     = 2
     parent     = "section.shortcodes"
     post       = 1
