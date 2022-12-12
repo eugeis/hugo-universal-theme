@@ -1,5 +1,5 @@
 baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "FECG Braunschweig"
+title = "Universal"
 theme = "hugo-universal-theme"
 themesDir = "../.."
 languageCode = "de-de"
@@ -30,10 +30,32 @@ pluralizelisttitles = false
     weight     = 1
 
 [[menu.main]]
-    name       = "Über uns"
+    name       = "Gemeinde"
     identifier = "menu.features"
-    url        = "/ueberuns/"
+    url        = "/img/inside_4a.jpg"
     weight     = 2
+
+[[menu.main]]
+    name       = "Gemeindeleben"
+    identifier = "section.shortcodes"
+    url        = ""
+    weight     = 1
+    parent     = "menu.features"
+    post       = 1
+
+[[menu.main]]
+    name       = "Über uns"
+    url        = "/ueberuns/"
+    weight     = 1
+    parent     = "section.shortcodes"
+    post       = 1
+
+[[menu.main]]
+    name       = "Fragen"
+    url        = "/fragen/"
+    weight     = 2
+    parent     = "section.shortcodes"
+    post       = 1
 
 [[menu.main]]
     identifier = "livestream"
@@ -57,19 +79,25 @@ pluralizelisttitles = false
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[menu.topbar]]
+    weight = 2
+    name = "GitHub"
+    url = "https://github.com/devcows/hugo-universal-theme"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
     weight = 3
-    name = "Youtube"
-    url = "https://www.youtube.com/@FECGBraunschweig/featured"
-    pre = "<i class='fab fa-2x fa-youtube'></i>"
+    name = "Facebook"
+    url = "http://facebook.com"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 4
-    name = "Instagram"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-instagram'></i>"
+    name = "Twitter"
+    url = "http://twitter.com"
+    pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
-    weight = 2
+    weight = 5
     name = "Email"
     url = "mailto:hello@universal.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
@@ -90,8 +118,8 @@ pluralizelisttitles = false
     enableGoogleMaps = true
     googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
 
-    latitude = "52.24109054921674"
-    longitude = "10.491513215340166"
+    latitude = "-12.043333"
+    longitude = "-77.028333"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     #style = "default"
@@ -132,7 +160,7 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2022, FECG Braunschweig e.V.; <a href='/impressum/'> Impressum/Datenschutzerklärung </a>."
+    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -143,8 +171,8 @@ pluralizelisttitles = false
     logo_text = "FECG-Braunschweig"
 
     logo = "img/logo.png"
-    logo_small = "img/logo.png"
-    contact_url = "contact/"
+    logo_small = "img/logo-small.png"
+    contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Freie Evangeliums-Christengemeinde e.V.</strong>
         <br>Neckarstraße 2
         <br>38120
@@ -161,10 +189,10 @@ pluralizelisttitles = false
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-   # text = """<p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-   #   <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-   #   </p>
-    #  """
+    text = """<p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      """
 # <p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
 
 
@@ -217,7 +245,6 @@ pluralizelisttitles = false
     subtitle = "Etwas hindert Sie daran, persönlich zu kommen? Kein Problem! Unseren Gottesdienst können sie auch als Livestream verfolgen."
     link_url = "https://www.youtube.com/channel/UCVRBQkJxQS_fNKR90c4kscg/live"
     link_text = "Hier geht es zum Livestream"
-    
 
 [params.clients]
     enable = false
@@ -234,7 +261,7 @@ pluralizelisttitles = false
     hide_summary = false
 
 [params.footer.recent_posts]
-    enable = false
+    enable = true
 
 [taxonomies]
   category = "categories"

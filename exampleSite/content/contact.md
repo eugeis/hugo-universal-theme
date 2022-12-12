@@ -1,5 +1,5 @@
 +++
-title = "Impressum"
+title = "Kontakt"
 id = "contact"
 +++
 
