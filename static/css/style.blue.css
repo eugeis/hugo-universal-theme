@@ -1791,7 +1791,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 .bar.background-image-fixed-2 {
-  background: url('../img/livestream.png') center top no-repeat;
+  background: url('../img/livestream.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }

@@ -131,7 +131,7 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    about_us = ""
     copyright = "Copyright (c) 2022, FECG Braunschweig e.V.; <a href='/impressum/'> Impressum/Datenschutzerklärung </a>."
 
     # Format dates with Go's time formatting
@@ -177,7 +177,7 @@ pluralizelisttitles = false
 [params.carouselCustomers]
     items = 6
     auto_play = false
-    slide_speed = 2000
+    slide_speed = 2500
     pagination_speed = 1000
 
 [params.carouselTestimonials]
@@ -214,7 +214,7 @@ pluralizelisttitles = false
     enable = true
     icon = "fa-solid fa-tv"
     title = "Wir sind auch online für Sie da"
-    subtitle = "Etwas hindert Sie daran, persönlich zu kommen? Kein Problem! Unseren Gottesdienst können sie auch als Livestream verfolgen."
+    subtitle = "Etwas hindert Sie daran, persönlich zu kommen? Kein Problem! Unseren Gottesdienst können Sie auch als Livestream verfolgen."
     link_url = "https://www.youtube.com/channel/UCVRBQkJxQS_fNKR90c4kscg/live"
     link_text = "Hier geht es zum Livestream"
     
@@ -228,9 +228,9 @@ pluralizelisttitles = false
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    enable = false
+    title = "Lebendige Gemeinde"
+    subtitle = ""
     hide_summary = false
 
 [params.footer.recent_posts]

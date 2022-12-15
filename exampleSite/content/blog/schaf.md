@@ -1,0 +1,17 @@
++++
+title = "Baarack das Schaf"
+tags = ["Ermutigung Gleichnis"]
+categories = ["Andacht"]
+banner = "img/banners/baarack.jpg"
+twitter_author = "Malte Haß"
++++
+{{< image baarack1.jpg REUTERS Baarack >}}
+Das ist Baarack das Schaf aus Australien. Baarack hatte mal einen Besitzer und ist ihm aber weggelaufen. Er wurde erst einmal nicht wiedergefunden und hatte, als es dann doch gefunden wurde, am Körper im Laufe der Zeit satte 35 kg Wolle produziert. Das liegt daran, dass Baarack ein Merinoschaf ist, und ein solches Schaf verliert seine Wolle nicht von selbst - es braucht mindestens jährlich eine Scherung. So sieht es also aus wenn ein Schaf verloren geht und sich niemand um es kümmert. Wenn wir uns einfach mal überlegen, was Baarack in der Zeit alles hätte passieren können. Vor Wölfen weglaufen? Nicht mit 35 kg Wolle auf den Hüften. Auch musste es sich wohl an vielen Sträuchern verheddert und dazu noch bei den australischen Außentemperaturen schrecklich geschwitzt haben. 
+
+Ich finde Baarack ist ein tolles Beispiel für uns Jesus Schäfchen. Wie auch dieses Schaf, brauchen wir unseren Hirten und seine tägliche Pflege. Warum? Genau so wie Baarack müssen wir regelmäßig von unserer alltäglichen Last "geschoren" werden. All die sündigen Taten unseres Fleisches, all die Sorgen und Nöte und all die Zweifel häufen wir uns viel zu oft selbst auf. Dabei sagt doch unser Hirte: "Kommt her zu mir, alle ihr Mühseligen und Beladenen! Und ich werde euch Ruhe geben" (Matthäus 11,28). Doch wie so oft laufen wir unserem Herrn davon, weil wir meinen, wir kriegen alles selbst hin. Und so wird unsere "Wolle" immer schwerer durch die Sorgen und Nöte in dieser Welt und wir werden träger und träger. Und am Ende verheddern wir uns dann in Zweifel und Sünden und blöken panisch nach Hilfe, weil wir merken, dass wir doch nicht so wirklich etwas im Griff haben. Doch da ist keiner der uns helfen kann... oder doch?
+
+Baarack wurde für seinen Hirten als verschollen erklärt und er hatte das Tier aufgegeben. Nicht so unser Hirte:
+
+"Welcher Mensch unter euch, der hundert Schafe hat und eins von ihnen verloren hat, lässt nicht die neunundneunzig in der Wüste und geht dem verlorenen nach, bis er es findet? Und wenn er es gefunden hat, so legt er es mit Freuden auf seine Schultern; und wenn er nach Hause kommt, ruft er die Freunde und die Nachbarn zusammen und spricht zu ihnen: Freut euch mit mir! Denn ich habe mein Schaf gefunden, das verloren war. Ich sage euch: So wird Freude im Himmel sein über einen Sünder, der Buße tut, ⟨mehr⟩ als über neunundneunzig Gerechte, die die Buße nicht nötig haben." - Luk. 15,1-7
+
+Unser Hirte geht uns nach und unser Hirte wird nicht eher Ruhe geben, bis er uns gefunden hat. Er ist "der gute Hirte und der gute Hirte läßt sein Leben für die Schafe" (Johannes 10,11). Jesus ist nicht daran interessiert, dass ein Schaf von ihm verloren geht. Deswegen ging er den schweren Weg ans Kreuz, um für dich und mich zu sterben, damit wir ewiges Leben haben und geheilt und von unserer Last befreit in unsere Heimat zurück dürfen. Und selbst das reicht ihm noch nicht, denn nun sagt er uns, dass wir alle unsere Sorgen auf ihn werfen können, denn er sorgt für uns (1. Petrus 5,7). Diese Gewissheit entlastet mich. Ich darf Sorgen haben, aber ich brauche sie nicht zu behalten – ich kann sie dort abgeben, wo sie besser verarbeitet werden als in meiner Seele. Ist das nicht eine herrliche Gewissheit? Und wie geht es eigentlich Baarack ohne Wolle?
