@@ -24,6 +24,7 @@
 .navbar-header:after {
   clear: both;
 }
+
 .center-block {
   display: block;
   margin-left: auto;
@@ -1158,8 +1159,9 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel {
   position: relative;
+  /* 
   background: url('../img/photogrid.jpg') center center repeat;
-  background-size: cover;
+  background-size: cover; */
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -1206,7 +1208,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel h1 {
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: unset;
   font-size: 46px;
   letter-spacing: 0.08em;
 }
@@ -1217,7 +1219,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel h2 {
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: unset;
   font-size: 40px;
   letter-spacing: 0.08em;
 }
@@ -1226,7 +1228,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 18px;
   font-weight: 700;
   padding: 0;
-  text-transform: uppercase;
+  text-transform: unset;
   letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
@@ -1789,7 +1791,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 .bar.background-image-fixed-2 {
-  background: url('../img/fixed-background-2.jpg') center top no-repeat;
+  background: url('../img/livestream.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
