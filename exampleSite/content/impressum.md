@@ -14,9 +14,9 @@ Vereinsregister-Nr (folgt)
 Gericht: Braunschweig
 
 Verantwortlich für den Inhalt gem. § 55 Abs. 2 RStV:
-Dimitri Dill
-Rektor-Wolf-Str. 5
-31246 Ilsede 
+Eugen Eisler
+Möhnestr. 16
+38120 Braunschweig 
 
 # Datenschutzerklärung
 
