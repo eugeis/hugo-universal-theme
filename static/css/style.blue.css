@@ -24,7 +24,6 @@
 .navbar-header:after {
   clear: both;
 }
-
 .center-block {
   display: block;
   margin-left: auto;
@@ -1207,7 +1206,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel h1 {
   font-weight: 700;
-  text-transform: unset;
+  text-transform: uppercase;
   font-size: 46px;
   letter-spacing: 0.08em;
 }
@@ -1218,7 +1217,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel h2 {
   font-weight: 700;
-  text-transform: unset;
+  text-transform: uppercase;
   font-size: 40px;
   letter-spacing: 0.08em;
 }
@@ -1227,7 +1226,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 18px;
   font-weight: 700;
   padding: 0;
-  text-transform: unset;
+  text-transform: uppercase;
   letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
@@ -1790,7 +1789,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 .bar.background-image-fixed-2 {
-  background: url('../img/livestream.jpg') center top no-repeat;
+  background: url('../img/fixed-background-2.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
