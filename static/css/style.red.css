@@ -1226,7 +1226,6 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 18px;
   font-weight: 700;
   padding: 0;
-  text-transform: uppercase;
   letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
